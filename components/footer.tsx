@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-serif">Serene Spirit</h3>
+            <h3 className="text-2xl font-serif">Ojas Pragaya</h3>
             <p className="text-white/70 leading-relaxed">
               A sanctuary for mind, body, and soul. Discover your path to wellness with our holistic approach to
               healing.
@@ -77,7 +77,7 @@ India
         </div>
 
         <div className="border-t border-white/20 mt-12 pt-8 text-center text-white/60">
-          <p>&copy; 2024 Serene Spirit. All rights reserved.</p>
+          <p>&copy; 2024 Ojas Prayaga. All rights reserved.</p>
         </div>
       </div>
     </footer>

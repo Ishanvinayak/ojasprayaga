@@ -32,11 +32,11 @@ export default function Header() {
         isScrolled ? "bg-white/95 backdrop-blur-sm shadow-sm" : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-7">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-serif text-charcoal hover:text-sage transition-colors">
-            Serene Spirit
+          <Link href="/" className="text-4xl font-serif text-charcoal hover:text-sage transition-colors">
+            Ojas Prayaga
           </Link>
 
           {/* Desktop Navigation */}

@@ -6,7 +6,7 @@ import { ChevronLeft, ChevronRight, Star } from "lucide-react"
 const testimonials = [
   {
     name: "Sarah Johnson",
-    text: "Serene Spirit has transformed my approach to wellness. The combination of yoga and acupuncture has helped me find balance I never thought possible.",
+    text: "Ojas Prayaga has transformed my approach to wellness. The combination of yoga and acupuncture has helped me find balance I never thought possible.",
     rating: 5,
     service: "Yoga & Acupuncture",
   },

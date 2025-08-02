@@ -17,24 +17,25 @@ export default function About() {
       </section>
 
       {/* Our Story */}
-      <section className="py-20 px-4 max-w-7xl mx-auto">
+      <section className="py-20 px-20 max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h2 className="text-4xl font-serif text-charcoal">Our Journey</h2>
             <div className="space-y-4 text-charcoal/80 leading-relaxed">
               <p>
-                Founded in 2018, Serene Spirit emerged from a deeply personal journey of healing and transformation. Our
-                founder, Sarah Chen, discovered the profound power of holistic wellness after her own experience with
-                chronic stress and burnout in the corporate world.
+              Welcome to Ojas Prayaga – Where Vitality Meets Inner Harmony
+              At Ojas Prayaga, we believe yoga is more than movement—it’s a sacred journey of awakening, healing, and inner transformation. With over 15 years of dedicated experience, we are here to guide you toward holistic well-being through authentic yogic traditions rooted in deep knowledge and soulful practice.
+
               </p>
               <p>
-                What began as a personal quest for balance has blossomed into a sanctuary where ancient wisdom meets
-                modern understanding. We believe that true wellness encompasses not just the physical body, but the
-                mind, spirit, and emotional well-being of each individual.
+              Meet the Founders
+              Jayavelu, with a Master’s degree and M.Phil in Yoga, brings profound expertise in classical yoga and therapeutic methodologies. His practice is anchored in discipline, spiritual depth, and a compassionate commitment to helping students reconnect with their inner selves.
+              Gayathri, holding a Master’s in Yoga and Master’s in Psychology, bridges the ancient science of yoga with the modern understanding of the mind. Her sessions weave together emotional balance, meditative awareness, and gentle strength, creating space for inner clarity and transformation.
+
               </p>
               <p>
-                Today, we're proud to serve our community with authentic, transformative practices that honor both
-                traditional healing arts and contemporary wellness science.
+              Together, Jayavelu and Gayathri founded Ojas Prayaga as a sanctuary for those seeking to renew, realign, and rise—physically, mentally, and spiritually.
+              Our Vision To guide individuals from all walks of life toward vibrant health, conscious living, and self-realization through the timeless wisdom of yoga. What We Offer Traditional Hatha & Therapeutic Yoga Chakra Activation & Energy Work Meditation & Yogic Breathing Psychology-Integrated Yogic Healing Specialized Workshops, Retreats & Teacher Trainings Whether you are a beginner or an advanced practitioner, Ojas Prayaga invites you to explore the deeper layers of your being—where ojas (vitality) flows freely and inner union (prayaga) is found. Come join us—and let your journey to wholeness begin.
               </p>
             </div>
             <Button className="bg-sage hover:bg-sage/90 text-white px-8 py-3">Meet Our Team</Button>

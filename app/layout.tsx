@@ -16,7 +16,7 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "Serene Spirit - Yoga & Wellness Sanctuary",
+  title: "Ojas Prayaga - Yoga & Wellness Sanctuary",
   description:
     "Discover balance and peace through our holistic wellness services including yoga, acupuncture, aromatherapy, and sound healing.",
     generator: 'v0.dev'
