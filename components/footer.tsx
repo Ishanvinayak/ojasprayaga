@@ -42,12 +42,17 @@ export default function Footer() {
             <h4 className="text-lg font-semibold">Contact Info</h4>
             <div className="space-y-2 text-white/70">
               <p>
-                123 Wellness Way
+              BF2 Jansi Sudarshan, 4/37, U V Swaminathan Street,
+
                 <br />
-                Peaceful Gardens, CA 90210
+                Alandur
+CHENNAI, TAMIL NADU 600016
+India
               </p>
-              <p>(555) 123-YOGA</p>
-              <p>hello@serenespirit.com</p>
+              <p>+91 6382727997 • +91 9094765389</p>
+              
+              <p>ojaspragaya@gmail.com
+              </p>
             </div>
           </div>
 

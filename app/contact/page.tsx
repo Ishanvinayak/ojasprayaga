@@ -77,9 +77,12 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-charcoal mb-1">Address</h3>
                     <p className="text-charcoal/70">
-                      123 Wellness Way
+                    BF2 Jansi Sudarshan, 4/37, U V Swaminathan Street,
+
                       <br />
-                      Peaceful Gardens, CA 90210
+                      Alandur
+CHENNAI, TAMIL NADU 600016
+India
                     </p>
                   </div>
                 </div>
@@ -88,7 +91,7 @@ export default function Contact() {
                   <Phone className="w-6 h-6 text-sage mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-charcoal mb-1">Phone</h3>
-                    <p className="text-charcoal/70">(555) 123-YOGA</p>
+                    <p className="text-charcoal/70">+91 6382727997 • +91 9094765389</p>
                   </div>
                 </div>
 
@@ -96,7 +99,8 @@ export default function Contact() {
                   <Mail className="w-6 h-6 text-sage mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-charcoal mb-1">Email</h3>
-                    <p className="text-charcoal/70">hello@serenespirit.com</p>
+                    <p className="text-charcoal/70">ojaspragaya@gmail.com
+                    </p>
                   </div>
                 </div>
 
