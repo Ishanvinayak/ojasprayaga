@@ -17,11 +17,11 @@ export default function About() {
       </section>
 
       {/* Our Story */}
-      <section className="py-20 px-20 max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+      <section className="py-10 px-20 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-1 gap-12 items-center">
           <div className="space-y-6">
-            <h2 className="text-4xl font-serif text-charcoal">Our Journey</h2>
-            <div className="space-y-4 text-charcoal/80 leading-relaxed">
+            <h2 className="text-6xl font-serif text-charcoal">Our Journey</h2>
+            <div className="space-y-7 text-charcoal/80 leading-relaxed">
               <p>
               Welcome to Ojas Prayaga – Where Vitality Meets Inner Harmony
               At Ojas Prayaga, we believe yoga is more than movement—it’s a sacred journey of awakening, healing, and inner transformation. With over 15 years of dedicated experience, we are here to guide you toward holistic well-being through authentic yogic traditions rooted in deep knowledge and soulful practice.

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
 
@@ -32,11 +33,18 @@ export default function Header() {
         isScrolled ? "bg-white/95 backdrop-blur-sm shadow-sm" : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-7">
+      <div className="max-w-6xl mx-auto px-2">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="text-4xl font-serif text-charcoal hover:text-sage transition-colors">
-            Ojas Prayaga
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo.png"
+              alt="Ojas Prayaga Logo"
+              width={120}
+              height={40}
+              className="h-16 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}
