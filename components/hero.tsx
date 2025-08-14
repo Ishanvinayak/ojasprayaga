@@ -1,16 +1,19 @@
-import OptimizedImage from "@/components/optimized-image"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 export default function Hero() {
   return (
     <section className="relative h-screen overflow-hidden">
-      <OptimizedImage
-        src="/placeholder.svg?height=1080&width=1920"
-        alt="Peaceful yoga practice in nature"
-        fill
-        priority
-      />
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="/ojas-prayaga.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
       <div className="absolute inset-0 bg-black/30" />
 
       <div className="absolute inset-0 flex items-center justify-center">
