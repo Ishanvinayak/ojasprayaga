@@ -10,8 +10,30 @@ export default function About() {
         <div className="absolute inset-0 bg-black/20" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white">
-            <h1 className="text-5xl md:text-6xl font-serif mb-4">About Us</h1>
-            <p className="text-xl md:text-2xl font-light">Discover our journey to wellness</p>
+            <div className="flex items-center justify-center gap-6 mb-6">
+              <h1 className="text-6xl md:text-8xl font-serif">About Us</h1>
+              <div className="flex gap-3">
+                <div className="w-20 h-20 md:w-28 md:h-28 rounded-full overflow-hidden border-3 border-white/40">
+                  <OptimizedImage 
+                    src="/jai.jpeg" 
+                    alt="Jai" 
+                    width={112}
+                    height={112}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="w-20 h-20 md:w-28 md:h-28 rounded-full overflow-hidden border-3 border-white/40">
+                  <OptimizedImage 
+                    src="/gayathri.jpeg" 
+                    alt="Gayathri" 
+                    width={112}
+                    height={112}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+            <p className="text-2xl md:text-3xl font-light">Discover our journey to wellness</p>
           </div>
         </div>
       </section>
