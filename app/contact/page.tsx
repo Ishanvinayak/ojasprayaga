@@ -91,7 +91,7 @@ India
                   <Phone className="w-6 h-6 text-sage mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-charcoal mb-1">Phone</h3>
-                    <p className="text-charcoal/70">+91 6382727997 • +91 9094765389</p>
+                    <p className="text-charcoal/70">+91 9094765389 • +91 6382727997</p>
                   </div>
                 </div>
 

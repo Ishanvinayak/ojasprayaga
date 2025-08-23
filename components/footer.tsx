@@ -49,7 +49,7 @@ export default function Footer() {
 CHENNAI, TAMIL NADU 600016
 India
               </p>
-              <p>+91 6382727997 • +91 9094765389</p>
+              <p>+91 9094765389 • +91 6382727997</p>
               
               <p>ojaspragaya@gmail.com
               </p>
