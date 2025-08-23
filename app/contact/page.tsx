@@ -117,9 +117,19 @@ India
                 </div>
               </div>
 
-              {/* Map Placeholder */}
-              <div className="h-64 bg-sage/10 rounded-lg flex items-center justify-center">
-                <p className="text-charcoal/60">Interactive Map Coming Soon</p>
+              {/* Interactive Map */}
+              <div className="h-64 rounded-lg overflow-hidden shadow-lg">
+                <iframe
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=BF2+Jansi+Sudarshan+4/37+U+V+Swaminathan+Street+Alandur+Chennai+Tamil+Nadu+600016+India"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Ojas Pragaya Location"
+                  className="w-full h-full"
+                ></iframe>
               </div>
             </div>
           </div>
